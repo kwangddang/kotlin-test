@@ -40,10 +40,7 @@ class MainActivity : AppCompatActivity() {
                 val ringtone=RingtoneManager.getRingtone(getApplicationContext(),notification)
                 ringtone.play()
             }
-            else if(v== btn_custom_sound){
-                val player = MediaPlayer.create(this,R.raw.fallbackring)
-                player.start()
-            }
+
         }
     }
 }
